@@ -1,0 +1,30 @@
+Select *
+From user
+Where userName = 'Emil Su'
+
+
+=====================Time Out
+
+index userName
+
+======================ok
+
+clear;
+
+Declear
+	
+Begin
+    Select *
+    From user
+    Where userName = "Emil Su";
+End get_Employ;
+
+=====================ok
+
+{
+    'users':[
+        {
+            'userId": 23168,
+            'userName": 'Emil Su',
+            'phoneNumber:' 0437086952,
+            'address': '15................

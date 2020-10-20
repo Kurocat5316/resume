@@ -1,0 +1,53 @@
+.circular--square{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.circular--landscape img {
+    display: inline;
+    margin: 0 auto;
+    margin-left: -25%;
+}
+
+.page .pageRightPanel{    
+    background-color: #2E50BF;
+    float: right;
+    clear: none;    
+    height: 95%;    
+    width: 30%;    
+    box-sizing: border-box;    
+    padding: 10px;     
+}            
+
+.page .pageContent{    
+    background-color: #FFFFFF;    
+    float: left;    
+    clear: none;    
+    height: 95%;   
+    width: 70%;    
+    box-sizing: border-box;    
+    padding: 10px;   
+}     
+
+.skills {    
+    margin-top: -10px;
+    text-align: right;
+    padding-bottom: 10px;
+    color: white;    
+    background-color: white;   
+}    
+
+.java{width: 70%; }    
+.c2{width: 80%; }    
+.php {width: 80%; }    
+.python{width: 40%; }    
+.ionic{width: 40%;}    
+.html{width: 70%; }    
+.c1{width: 60%; }    
+.unity{width: 60%;}       
+.english{width: 60%; }    
+.mandarin{width: 100%; }    
+.contonese{width: 100%; }
