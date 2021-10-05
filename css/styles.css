@@ -1,0 +1,183 @@
+body{
+	background-image: url('../img/background.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: 100% 100%;
+
+	transform-style: preserve-3d;
+}
+
+
+.input-wrapper {
+	width: 50%;
+	height: 50%;
+	margin: 50%;
+	padding: 50%;
+  }
+  
+  
+  input {
+	position: absolute;
+	top:30%;
+	left:35%;
+	width: 30%;
+	padding: 0;
+	border-radius: 0;
+	line-height: input-line-height;
+	background-color: transparent;
+	color: white;
+	font-size: input-font-size;
+	border: none;
+	outline: none;
+	border-bottom: 3px solid #333333;
+	font-family: font-family;
+  
+  }
+
+  .sqlCodePage{
+	padding: 0px;
+
+	position: absolute;
+	width: 0%;
+	height: 0%;
+	overflow: auto;
+	top: 33%;
+	left: 35%;
+	box-sizing: border-box;
+	background-color: rgba(255, 255, 255, .15);  
+	filter: blur(0px);
+	border: 1px solid;
+	box-shadow: 5px 5px rgba(101, 96, 96, 0.15);
+	}
+
+.sqlCodePageExtend{
+	padding: 10px;
+	width: 30%;
+	height: 50%;
+	transition: 1s;
+}
+
+.sqlCode{
+	background-color:black;
+	color: white;
+	width: 100%;
+	height: 95%
+}
+
+
+.htmlPage{
+	padding: 10px;
+	position: absolute;
+	left: 10px;
+	display: block;
+	width: 30%;
+	height: 100%;
+	overflow: auto;
+	margin: 0px auto 0px auto;
+	box-sizing: border-box;
+	background-color: rgba(255, 255, 255, .15);  
+	filter: blur(0px);
+	
+	transform: rotateY(-30deg) scale3d(.5,.5,.5);
+	transition: .5s;
+	
+	z-index: -1;
+
+	border: 1px solid;
+	padding: 10px;
+	box-shadow: 5px 5px rgba(101, 96, 96, 0.15);
+	}
+
+.htmlPage:hover{
+	transform: rotateY(0deg) scale3d(.8,.8,.8);
+	z-index: 1;
+}
+
+.cssPage{
+	padding: 10px;
+	position: absolute;
+	right: -30px;
+	display: block;
+	width: 30%;
+	height: 100%;
+	overflow: auto;
+	margin: 0px auto 0px auto;
+	box-sizing: border-box;
+	background-color: rgba(255, 255, 255, .15);  
+	filter: blur(0px);
+	transform: rotateY(30deg) scale3d(.5,.5,.5);
+	transition: .5s;
+	z-index: -1;
+
+	
+	border: 1px solid;
+	padding: 10px;
+	box-shadow: 5px 5px rgba(101, 96, 96, 0.15);
+	}
+
+.cssPage:hover{
+	transform: rotateY(0deg) scale3d(.8,.8,.8);
+	z-index: 1;
+}
+
+.pageEditor{
+	background-color: #FFFFFF;
+	float: left;
+	clear: none;
+	height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	}
+
+.purple-border textarea {
+  background-color:black;
+  color:white;
+  border: 1px solid #ba68c8;
+  width: 100%;
+  height: 98%;
+}
+.purple-border .form-control:focus {
+  border: 1px solid #ba68c8;
+  box-shadow: 0 0 0 0.2rem rgba(186, 104, 200, .25);
+}
+
+.green-border-focus .form-control:focus {
+  border: 1px solid #8bc34a;
+  box-shadow: 0 0 0 0.2rem rgba(139, 195, 74, .25);
+}
+
+.page{
+	padding: 10px;
+	display: block;
+	width: 60%;
+	max-height: 100%;
+	overflow: auto;
+	margin: -3% auto 0px auto;
+	box-sizing: border-box;
+	background-color: rgba(255, 255, 255, .15);  
+	filter: blur(0px);
+	transform: scale3d(.8,.8,.8);
+	transition: .5s;
+	z-index: -1;
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+	width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+	background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	background-color: #d6dee1;
+	border-radius: 20px;
+	border: 6px solid transparent;
+	background-clip: content-box;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+	background-color: #a8bbbf;
+  }
